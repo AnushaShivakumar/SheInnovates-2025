@@ -1,6 +1,6 @@
-## SheInnovates-2025 Website
-This is a webpage for the 2025 SheInnovates Hackathon
-Designers: Andrew Y Chen, Anusha, Kylie
+## SheInnovates 2025 
+- This is a webpage for the 2025 SheInnovates Hackathon 
+- Designers: Andrew Y Chen, Anusha, Kylie
 #### To Do
 1. Finish wireframing website
 2. Create HTML pages
