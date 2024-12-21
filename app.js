@@ -11,5 +11,5 @@ app.listen(port, (err) => {
 })
 
 app.get('/', (req, res) => {
-    res.render('index.pug')
+    res.render('index.pug', {'website' :'SheInnovates 2025'})
 })
