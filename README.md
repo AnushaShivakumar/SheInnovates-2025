@@ -7,5 +7,6 @@ Designers: Andrew Y Chen, Anusha, Kylie
 3. Create CSS + JS stylesheets
 4. Test locally from repo
 5. Publish to Pitt Server + Deploy
-
+#### Testing
+- Run using 'node app.js'
 "Inspires. Creates. Leads."
