@@ -9,4 +9,8 @@ Designers: Andrew Y Chen, Anusha, Kylie
 5. Publish to Pitt Server + Deploy
 #### Testing
 - Run using 'node app.js'
-"Inspires. Creates. Leads."
+#### Technology
+- NPM: Node Package Manager
+- Express.js: Library for Node.js
+- PUG: Template for HTML files, rendered as HTML
+## "Inspires. Creates. Leads."
