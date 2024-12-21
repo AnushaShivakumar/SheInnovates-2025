@@ -11,5 +11,5 @@ app.listen(port, (err) => {
 })
 
 app.get('/', (req, res) => {
-    res.render('index.jade')
+    res.render('index.pug')
 })
