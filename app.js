@@ -6,6 +6,8 @@ app.set('view engine', 'pug')
 app.set('views', __dirname + '/routes')
 app.set('view options', { layout: false });
 
+app.use(express.static(__dirname + '/static'))
+
 app.listen(port, (err) => {
     console.log('Server has started on: http://localhost:' + port);
 })

@@ -9,6 +9,8 @@ Designers: Andrew Y Chen, Anusha, Kylie
 5. Publish to Pitt Server + Deploy
 #### Testing
 - Run using 'node app.js'
+- Add/Edit files in routes for HTML pages
+- Add/Edit files in static for css/js
 #### Technology
 - NPM: Node Package Manager
 - Express.js: Library for Node.js
