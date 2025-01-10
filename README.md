@@ -4,6 +4,7 @@
 #### To Do
 1. Create HTML pages: Sponsors, Tracks, Contact, and FAQ
 2. Create CSS + JS stylesheets
+3. Make HTML Page Responsive 
 3. Test locally from repo
 #### Testing
 - Open via VSCode Live Server
