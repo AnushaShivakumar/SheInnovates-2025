@@ -15,27 +15,29 @@ h2 {
 }
 #reg a { text-decoration: none; font-size: 2.5pc; color: white;}
 button#reg {
+    position: absolute;
     padding: 10px;
-    margin-left: 35%;
+    left: 42%;
     background-color: black;
     margin-top: 1pc;
     border-radius: 20px;
 }
 #nav{
+    position: absolute;
     width: 85%;
-    margin-left: 5%;
-    margin-top: 2.5pc;
+    top: 27pc;
+    left: 5%;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
-    padding: 20px;
+    padding: 5px;
     list-style-type: none;
 }
 #nav li{
     display: inline-block;
-    padding: 10px;
-    margin-right: 0.5%;
-    margin-left: 30px;
+    padding: 0.5%;
+    margin-right: 3%;
 }
+#nav li:first-child{ margin-left: 28%;}
 #nav li button {
     margin-top: 10%;
     margin-bottom: 10%;
