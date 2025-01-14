@@ -5,7 +5,6 @@
     justify-content: center;
     min-height: 100vh; /* Ensures vertical centering on the page */
     margin: 0;
-
     max-width: 100%; /* Optional: Ensures responsiveness */
     height: auto; /* Maintains aspect ratio */
 }
