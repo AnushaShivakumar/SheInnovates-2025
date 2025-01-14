@@ -1,0 +1,27 @@
+.images{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Ensures vertical centering on the page */
+    margin: 0;
+
+    max-width: 100%; /* Optional: Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+p {
+    text-align: center;
+    color: black;
+    font-size:larger;
+}
+.heading{
+    background: burlywood;
+}
+
+
