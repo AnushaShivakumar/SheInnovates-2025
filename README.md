@@ -8,6 +8,7 @@
 3. Test locally from repo
 #### Testing
 - Open via VSCode Live Server
+- Launch index.html: This is the _main_ page
 - Add/Edit files in static/html for HTML pages
 - Add/Edit files in static/css & static/js for css & js
 ## "Inspires. Creates. Leads."
