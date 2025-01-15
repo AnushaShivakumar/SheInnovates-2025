@@ -9,6 +9,14 @@ h1 {
     border-color: black;
     border-radius: 1px;
 }
+
+h1 img {
+    width: 80%; /* Adjust as needed */
+    max-width: 900px; /* Prevents it from getting too big */
+    display: block;
+    margin: 0 auto; /* Centers the logo */
+}
+
 h2 {
     text-align: center;
     margin-top: min(-1pc, 1pc);
