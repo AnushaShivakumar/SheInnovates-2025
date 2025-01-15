@@ -35,7 +35,7 @@ button#reg:hover {
 #nav{
     position: absolute;
     width: 100%;
-    top: 100%;
+    top: 700px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 5px;
