@@ -1,10 +1,11 @@
-/* 🎨 General Styling */
+/* 🌟 General Styling */
 body {
-    font-family:'Courier New', Courier, monospace;
-    background: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(225, 213, 208);
     margin: 0;
     padding: 0;
     text-align: center;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
 /* 🏆 Sponsors Heading */
@@ -37,6 +38,8 @@ p {
     justify-content: center;
     gap: 30px;
     padding: 50px 20px;
+    max-width: 100%; /* Ensures it does not exceed the viewport width */
+    margin: 0 auto; /* Centers the container */
 }
 
 .sponsor-card {
@@ -64,52 +67,55 @@ p {
     transform: scale(1.05);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
-/* Navigation Bar */
 
 #nav {
-    position: absolute;
-    width: 85%;
-    top: 85vh;
-    left: 7.5%; /* Centers the nav bar */
-    border-top: 3px black solid;
-    border-bottom: 3px black solid;
-    padding: 10px;
+    position: relative;
+    width: 100%;
+    top: 65px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px; /* Removes side padding */
+    margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
+    background-color: #ede0d4;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
+    box-sizing: border-box;
 }
 
-/* Ensures buttons have the same spacing */
 #nav li {
     display: inline-block;
-    padding: 0.5%;
-    margin-right: 3%;
+    padding: 0px 5px; /* Add padding only for right and top/bottom */
 }
 
 #nav li:first-child {
-    margin-left: 0%; /* Fixes the unwanted left offset */
+    margin-left: 0; /* Avoid left alignment issue */
 }
 
-/* Button Styling - Same as Home */
+
 #nav li button {
-    width: auto;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 10pc;
     padding: 20px;
-    border-radius: 15px;
     background-color: black;
-    border: none;
-    cursor: pointer;
-    transition: background 0.3s ease;
-}
-/* Hover Effect */
-#nav li button:hover {
-    background: #333;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 15px; /* Adds curved borders */
+    border: none; /* Removes any default border */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
-/* 💡 Button Text */
+#nav li button:hover {
+    background-color: #6247aa;
+    transform: scale(1.05); /* Slightly enlarges the button */
+}
+
 #nav li button a {
     color: white;
-    text-decoration: none;
-    font-size: 12px;
-}
+    text-decoration: none; /* Removes the underline */
 
+}
