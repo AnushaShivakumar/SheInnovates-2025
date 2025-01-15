@@ -1,59 +1,137 @@
-*{
+/* 🌟 General Styling */
+body {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(225, 213, 208);
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    text-align: center;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-.wrapper{
-    max-width: 75%;
-    margin: auto;
+/* 🏆 FAQ Heading */
+.heading {
+    background: black;
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 40px;
 }
-.wrapper >p, .wrapper > h1{
-    margin: 1.5rem 0;
-    text-align: center;
-}
-.wrapper > h1{
+
+h1 {
+    font-size: 6pc;
+    margin: 0;
+    text-transform: uppercase;
     letter-spacing: 3px;
 }
 
-.accordion{
-    background-color: rgb(225,213,208);
-    color: rgba(0,0,0, 0.8);
-    font-size: 1.2rem;
+/* 🔥 FAQ Accordion */
+.accordion {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.8);
+    font-size: 1.3rem;
     width: 100%;
-    padding: 2rem 2.5rem;
+    padding: 1.8rem 2.5rem;
     border: none;
     outline: none;
-    transition: 0.4s;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     display: flex;
     align-items: center;
     justify-content: space-between;
     font-weight: bold;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    margin-bottom: 20px;
+    text-align: left;
 }
-.accordion i{
+
+.accordion i {
     font-size: 1.6rem;
 }
-.active, .accordion:hover{
-    background-color: bisque;
+
+.accordion:hover,
+.faq.active .accordion {
+    background-color: rgb(238, 232, 227);
+    transform: scale(1.03);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-.panel{
-    padding: 0 2rem 2.5rem 2rem;
-    background-color: rgb(225,213,208);
-    overflow: hidden;
-    background-color: beige;
+/* 🔳 Panel Design */
+.panel {
+    padding: 20px 30px;
+    background: linear-gradient(to bottom, rgb(245, 240, 235), rgb(225, 213, 208));
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin: 20px;
     display: none;
 }
-.panel p{
-    color: rgb(0,0,0,0.7);
+
+.panel p {
+    color: rgba(0, 0, 0, 0.7);
     font-size: 1.2rem;
-    line-height: 1.4;
+    line-height: 1.6;
+    text-align: left;
 }
 
-.faq{
-    border: 1px solid rgba(0,0,0,0.2);
-    margin: 10px 0;
+/* ✨ FAQ Section Wrapper */
+.wrapper {
+    max-width: 75%;
+    margin: auto;
+    text-align: left;
 }
-.faq.active{
-    border:none;
+
+.wrapper > p,
+.wrapper > h1 {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+
+/* 🔗 Navigation Bar */
+#nav {
+    position: relative;
+    width: 100%;
+    top: 65px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+    padding: 15px;
+    margin: 0 auto;
+    list-style-type: none;
+    background-color: #ede0d4;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    box-sizing: border-box;
+    margin-bottom: 5%;
+}
+
+#nav li {
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+#nav li:first-child {
+    margin-left: 0;
+}
+
+#nav li button {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    width: 10pc;
+    padding: 20px;
+    background-color: black;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#nav li button:hover {
+    background-color: #6247aa;
+    transform: scale(1.05);
+}
+
+#nav li button a {
+    color: white;
+    text-decoration: none;
 }
