@@ -10,16 +10,22 @@ h1 {
 }
 h2 {
     text-align: center;
-    margin-top: -1pc;
-    font-size: 4pc;
+    margin-top: min(-1pc, 1pc);
+    font-size: min(200px, 5vw);
 }
-button#reg a { text-decoration: none; font-size: 4pc; color: white;}
+button#reg a { 
+    text-decoration: none; 
+    font-size: min(4vw, 10vw); 
+    color: white;
+}
 button#reg {
-    position: absolute;
-    padding: 20px;
-    left: 34%;
+    position: relative;
+    height: min(70px, auto);
+    width: min(100px, auto);
+    margin-left: 34%;
+    padding: 30px;
     background-color: black;
-    margin-top: 1pc;
+    margin-top: 0pc;
     border-radius: 45px;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
@@ -29,7 +35,7 @@ button#reg:hover {
 #nav{
     position: absolute;
     width: 100%;
-    top: 42pc;
+    top: 100%;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 5px;
@@ -43,6 +49,8 @@ button#reg:hover {
 }
 #nav li:first-child{ margin-left: 10%;}
 #nav li button {
+    display: flex;
+    justify-content: center;
     margin-top: 10%;
     margin-bottom: 10%;
     width: 10pc;
