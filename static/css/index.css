@@ -5,7 +5,7 @@ body {
 h1 {
     font-size: 7pc;
     text-align: center;
-    margin-top: 4pc;
+    margin-top: 8pc;
     border-color: black;
     border-radius: 1px;
 }
@@ -33,9 +33,9 @@ button#reg:hover {
     background-color: chocolate;
 }
 #nav{
-    position: absolute;
+    position: relative;
     width: 100%;
-    top: 100%;
+    top: 65px;
     border-top: 2px solid black;
     border-bottom: 2px solid black;
     padding: 5px;
