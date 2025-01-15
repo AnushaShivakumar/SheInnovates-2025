@@ -22,15 +22,18 @@ button#reg {
     margin-top: 1pc;
     border-radius: 45px;
 }
+button#reg:hover {
+    background-color: chocolate;
+}
 #nav{
     position: absolute;
     width: 100%;
-    top: 40pc;
-    border-top: 3px black solid;
-    border-bottom: 3px black solid;
+    top: 42pc;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
     padding: 5px;
     list-style-type: none;
-    background-color:antiquewhite;
+    background-color: antiquewhite;
 }
 #nav li{
     display: inline-block;
@@ -45,5 +48,8 @@ button#reg {
     padding: 20px;
     border-radius: 30px;
     background-color: black;
+}
+#nav li button:hover {
+    background-color: purple;
 }
 #nav li button a {color: white; text-decoration: none; font-size: 20px;}
