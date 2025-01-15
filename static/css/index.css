@@ -5,7 +5,7 @@ body {
 h1 {
     font-size: 7pc;
     text-align: center;
-    margin-top: 8pc;
+    margin-top: 6pc;
     border-color: black;
     border-radius: 1px;
 }
@@ -22,21 +22,24 @@ h2 {
     margin-top: min(-1pc, 1pc);
     font-size: min(200px, 5vw);
 }
-button#reg a { 
-    text-decoration: none; 
-    font-size: min(4vw, 10vw); 
+button#reg a {
+    text-decoration: none;
+    font-size: min(10vw, 48px); /* Adjust font size dynamically */
     color: white;
+    text-align: center;
 }
+
 button#reg {
-    position: relative;
-    height: min(70px, auto);
-    width: min(100px, auto);
-    margin-left: 34%;
-    padding: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content; /* Ensures the button width adapts to the text */
+    padding: 17px 30px; /* Adjust padding for better appearance */
     background-color: rgb(51, 51, 51);
-    margin-top: 0pc;
+    margin: 20px auto; /* Centers horizontally */
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
 button#reg:hover {
     background-color: chocolate;
 }
