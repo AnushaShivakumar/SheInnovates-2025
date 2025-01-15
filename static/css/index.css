@@ -11,39 +11,39 @@ h1 {
 h2 {
     text-align: center;
     margin-top: -1pc;
-    font-size: 3pc;
+    font-size: 4pc;
 }
-#reg a { text-decoration: none; font-size: 2.5pc; color: white;}
+button#reg a { text-decoration: none; font-size: 4pc; color: white;}
 button#reg {
     position: absolute;
-    padding: 10px;
-    left: 40%;
+    padding: 20px;
+    left: 34%;
     background-color: black;
     margin-top: 1pc;
-    border-radius: 20px;
+    border-radius: 45px;
 }
 #nav{
     position: absolute;
-    width: 85%;
-    top: 30pc;
-    left: 5%;
+    width: 100%;
+    top: 40pc;
     border-top: 3px black solid;
     border-bottom: 3px black solid;
     padding: 5px;
     list-style-type: none;
+    background-color:antiquewhite;
 }
 #nav li{
     display: inline-block;
     padding: 0.5%;
-    margin-right: 3%;
+    margin-right: 4%;
 }
-#nav li:first-child{ margin-left: 28%;}
+#nav li:first-child{ margin-left: 10%;}
 #nav li button {
     margin-top: 10%;
     margin-bottom: 10%;
-    width: 100%;
+    width: 10pc;
     padding: 20px;
-    border-radius: 15px;
+    border-radius: 30px;
     background-color: black;
 }
-#nav li button a {color: white; text-decoration: none; font-size: 12px;}
+#nav li button a {color: white; text-decoration: none; font-size: 20px;}
