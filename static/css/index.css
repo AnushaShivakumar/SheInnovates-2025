@@ -41,7 +41,8 @@ button#reg {
 }
 
 button#reg:hover {
-    background-color: #156064;
+    background-color: rgb(114, 155, 156);
+    color: black;
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
 
@@ -53,7 +54,8 @@ button#reg:hover {
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
-    background-color: #156064;
+    background-color: rgb(114, 155, 156);
+
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -85,7 +87,7 @@ button#reg:hover {
 }
 
 #nav li button:hover {
-    background-color: #8477A7;
+    background-color: #592e83;
     transform: scale(1.05); /* Slightly enlarges the button */
 }
 
