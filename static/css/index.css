@@ -47,25 +47,28 @@ button#reg:hover {
 
 #nav {
     position: relative;
-    width: 100%;
+    width: 105%;
+    left: -1%;
     top: 65px;
-    padding: 10px; /* Ensure consistent padding */
+    padding: 15px; /* Removes side padding */
+    margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
     background-color: #156064;
     display: flex;
-    justify-content: space-evenly; /* Distribute buttons evenly */
-    align-items: center; /* Vertically align buttons */
+    justify-content: space-evenly;
+    align-items: center;
     box-sizing: border-box;
 }
+
 #nav li {
     display: inline-block;
-    padding: 0.5%;
-    margin-right: 4%;
+    padding: 0px 5px; /* Add padding only for right and top/bottom */
 }
 
 #nav li:first-child {
-    margin-left: 10%;
+    margin-left: 0; /* Avoid left alignment issue */
 }
+
 
 #nav li button {
     display: flex;
@@ -77,7 +80,6 @@ button#reg:hover {
     background-color: black;
     color: white;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
     border: none; /* Removes any default border */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
