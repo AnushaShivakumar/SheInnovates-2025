@@ -7,54 +7,102 @@
 
 /* Page Styling */
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(225, 213, 208);
-    color: #333; /* Dark text for good contrast */
+    color: #333;
     line-height: 1.6;
-    padding: 20px;
-    text-align: center; /* Centers the text */
+    text-align: center;
 }
 
 /* Heading Styling */
 h1 {
     background-color: black;
-    font-size: 4.2rem;
-    margin-bottom: 20px;
+    font-size: 3.5rem;
     color: white;
-    width: auto;
+    margin-bottom: 40px;
+    letter-spacing: 2px;
 }
 
-/* Prizes Container */
-.prizes {
-    max-width: 600px;
-    margin: 0 auto; /* Centers the container */
+/* Prizes Grid */
+.prizes-container {
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    padding: 20px;
+}
+
+/* Heading Styling */
+.heading {
+    background: black;
+    color: white;
+    padding: 20px;
+    margin-bottom: 40px;
+}
+
+.heading h1 {
+    font-size: 6pc;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.heading h2 {
+    font-size: 3pc;
+    letter-spacing: 1px;
+}
+
+.heading p {
+    font-size: 1.3rem;
+    opacity: 0.9;
+    margin-top: 10px;
+}
+
+
+.subtitle {
+    font-size: 1.2rem;
+    margin: 10px auto 30px;
+    color: white;
+    opacity: 0.9;
+}
+
+
+/* Prize Card Styling */
+.prize-card {
     background: #fff;
     padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
 }
 
-.prizes h2 {
-    font-size: 2.5rem;
-    margin: 10px 0; /* Space between paragraphs */
+.prize-card h2 {
+    font-size: 1.5rem;
+    margin: 10px 0;
+    color: #444;
 }
 
-/* Prize Text */
-.prizes p {
-    font-size: 1rem;
-    margin: 10px 0; /* Space between paragraphs */
-}
-
-/* Prize Images */
-.prizes img {
-    width: 150px; /* Fixed width for consistency */
+.prize-card img {
+    width: 120px;
     height: auto;
     display: block;
-    margin: 10px auto; /* Centers the images */
-    border-radius: 8px; /* Rounded corners for aesthetics */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    margin: 15px auto;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
+.prize-card img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.prize-card p {
+    font-size: 1rem;
+    color: #555;
+    margin: 10px 0;
+}
 #nav {
     position: relative;
     width: 100%;
