@@ -10,7 +10,7 @@ body {
 
 /* 🏆 Sponsors Heading */
 .heading {
-    background: rgb(94, 0, 94);
+    background: #8477A7;
     color: white;
     padding: 40px 20px;
     margin-bottom: 40px;
@@ -75,7 +75,7 @@ p {
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
-    background-color: rgb(153, 153, 153);
+    background-color: #679C9C;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

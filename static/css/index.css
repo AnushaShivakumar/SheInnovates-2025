@@ -52,7 +52,7 @@ button#reg:hover {
     top: 65px;
     padding: 10px; /* Ensure consistent padding */
     list-style-type: none;
-    background-color: rgb(153, 153, 153);
+    background-color: #679C9C;
     display: flex;
     justify-content: space-evenly; /* Distribute buttons evenly */
     align-items: center; /* Vertically align buttons */

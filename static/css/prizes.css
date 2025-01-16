@@ -16,7 +16,7 @@ body {
 
 /* Heading Styling */
 h1 {
-    background-color: black;
+    background: #8477A7;
     font-size: 3.5rem;
     color: white;
     margin-bottom: 40px;
@@ -35,7 +35,7 @@ h1 {
 
 /* Heading Styling */
 .heading {
-    background: rgb(94, 0, 94);
+    background: #8477A7;
     color: white;
     padding: 20px;
     margin-bottom: 40px;
@@ -110,7 +110,7 @@ h1 {
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
-    background-color: rgb(153, 153, 153);
+    background-color: #679C9C;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
