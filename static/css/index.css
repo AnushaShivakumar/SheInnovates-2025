@@ -50,8 +50,6 @@ button#reg:hover {
     position: relative;
     width: 100%;
     top: 65px;
-    border-top: 2px solid black;
-    border-bottom: 2px solid black;
     padding: 10px; /* Ensure consistent padding */
     list-style-type: none;
     background-color: rgb(153, 153, 153);
