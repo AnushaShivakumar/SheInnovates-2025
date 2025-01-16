@@ -25,7 +25,8 @@ h1 {
 
 /* 🔥 FAQ Accordion */
 .accordion {
-    background-color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(238, 232, 227);
     color: rgba(0, 0, 0, 0.8);
     font-size: 1.3rem;
     width: 100%;
@@ -49,7 +50,7 @@ h1 {
 
 .accordion:hover,
 .faq.active .accordion {
-    background-color: rgb(238, 232, 227);
+    background-color: white;
     transform: scale(1.03);
     box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
@@ -57,7 +58,7 @@ h1 {
 /* 🔳 Panel Design */
 .panel {
     padding: 20px 30px;
-    background: linear-gradient(to bottom, rgb(245, 240, 235), rgb(225, 213, 208));
+    background: white;
     border-radius: 15px;
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
     margin: 20px;
