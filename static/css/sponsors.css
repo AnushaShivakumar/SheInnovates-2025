@@ -75,7 +75,7 @@ p {
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
-    background-color: #679C9C;
+    background-color: #156064;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -107,7 +107,7 @@ p {
 }
 
 #nav li button:hover {
-    background-color: #6247aa;
+    background-color: #8477A7;
     transform: scale(1.05); /* Slightly enlarges the button */
 }
 

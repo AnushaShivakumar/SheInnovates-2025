@@ -41,9 +41,8 @@ button#reg {
 }
 
 button#reg:hover {
-    background-color: rgb(114, 155, 156);
+    background-color: #156064;
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
-
 }
 
 #nav {
@@ -52,7 +51,7 @@ button#reg:hover {
     top: 65px;
     padding: 10px; /* Ensure consistent padding */
     list-style-type: none;
-    background-color: #679C9C;
+    background-color: #156064;
     display: flex;
     justify-content: space-evenly; /* Distribute buttons evenly */
     align-items: center; /* Vertically align buttons */
@@ -84,7 +83,7 @@ button#reg:hover {
 }
 
 #nav li button:hover {
-    background-color: #6247aa;
+    background-color: #8477A7;
     transform: scale(1.05); /* Slightly enlarges the button */
 }
 
