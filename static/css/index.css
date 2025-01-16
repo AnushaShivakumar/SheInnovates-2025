@@ -1,6 +1,6 @@
 body {
     font-family:'Courier New', Courier, monospace;
-    background-color: rgb(225, 213, 208);
+    background-color: #ede0d4;
 }
 h1 {
     font-size: 7pc;
@@ -54,7 +54,7 @@ button#reg:hover {
     border-bottom: 2px solid black;
     padding: 10px; /* Ensure consistent padding */
     list-style-type: none;
-    background-color: #ede0d4;
+    background-color: rgb(153, 153, 153);
     display: flex;
     justify-content: space-evenly; /* Distribute buttons evenly */
     align-items: center; /* Vertically align buttons */
