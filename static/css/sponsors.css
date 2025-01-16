@@ -77,7 +77,7 @@ p {
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
-    background-color: #ede0d4;
+    background-color: rgb(153, 153, 153);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
