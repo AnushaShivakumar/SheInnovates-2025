@@ -48,14 +48,12 @@ button#reg:hover {
 
 #nav {
     position: relative;
-    width: 105%;
-    left: -1%;
+    width: 100%;
     top: 65px;
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
     background-color: rgb(114, 155, 156);
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -68,9 +66,8 @@ button#reg:hover {
 }
 
 #nav li:first-child {
-    margin-left: 0; /* Avoid left alignment issue */
+    margin-left: 0px; /* Avoid left alignment issue */
 }
-
 
 #nav li button {
     display: flex;
