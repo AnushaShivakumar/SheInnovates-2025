@@ -1,61 +1,78 @@
+/* 🌟 General Styling */
 body {
-    font-family:'Courier New', Courier, monospace;
-    background-color: #ede0d4;
-}
-h1 {
-    font-size: 7pc;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(225, 213, 208);
+    margin: 0;
+    padding: 0;
     text-align: center;
-    margin-top: 6pc;
-    border-color: black;
-    border-radius: 1px;
+    overflow-x: hidden; /* Prevents horizontal scrolling */
 }
 
-h1 img {
-    width: 80%; /* Adjust as needed */
-    max-width: 900px; /* Prevents it from getting too big */
-    display: block;
-    margin: 0 auto; /* Centers the logo */
+/* 🏆 Schedule Heading */
+.heading {
+    background: #8477A7;
+    color: white;
+    padding: 40px 20px;
+    margin-bottom: 40px;
+}
+
+h1 {
+    font-size: 6pc;
+    margin: 0;
 }
 
 h2 {
-    text-align: center;
-    margin-top: min(-1pc, 1pc);
-    font-size: min(200px, 5vw);
-}
-button#reg a {
-    text-decoration: none;
-    font-size: min(10vw, 48px); /* Adjust font size dynamically */
-    color: white;
-    text-align: center;
+    font-size: 3pc;
+    margin-top: 10px;
 }
 
-button#reg {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content; /* Ensures the button width adapts to the text */
-    padding: 17px 30px; /* Adjust padding for better appearance */
-    background-color: black;
-    margin: 20px auto; /* Centers horizontally */
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+p {
+    font-size: 1.3rem;
+    opacity: 0.9;
 }
 
-button#reg:hover {
+/* 📅 Table Styling */
+.schedule-table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    text-align: left;
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.schedule-table thead {
     background-color: rgb(114, 155, 156);
-    color: black;
-    transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
+    color: white;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
+.schedule-table th, .schedule-table td {
+    padding: 15px;
+    border: 1px solid #ddd;
+    font-size: 1.3rem;
+}
+
+.schedule-table tbody tr:nth-child(odd) {
+    background-color: #f9f9f9;
+}
+
+.schedule-table tbody tr:hover {
+    background-color: #dec9e9;
+}
+
+/* 🔗 Navigation Bar */
 #nav {
     position: relative;
-    width: 105%;
-    left: -1%;
+    width: 100%;
     top: 65px;
     padding: 15px; /* Removes side padding */
     margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
     background-color: rgb(114, 155, 156);
-
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -71,7 +88,6 @@ button#reg:hover {
     margin-left: 0; /* Avoid left alignment issue */
 }
 
-
 #nav li button {
     display: flex;
     justify-content: center;
@@ -80,7 +96,6 @@ button#reg:hover {
     width: 10pc;
     padding: 20px;
     background-color: black;
-    color: white;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border: none; /* Removes any default border */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */

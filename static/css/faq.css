@@ -126,14 +126,19 @@ h1 {
 }
 
 #nav li button:hover {
-    background-color: #592e83;
-    transform: scale(1.05);
+    background-color: rgb(225, 213, 208); /* Changes the background color */
+    transform: scale(1.05); /* Slightly enlarges the button */
 }
 
 #nav li button a {
     color: white;
-    text-decoration: none;
+    text-decoration: none; /* Removes the underline */
 }
+
+#nav li button:hover a {
+    color: black; /* Ensure the <a> inside gets updated */
+}
+
 .contact-container {
     display: flex;
     justify-content: center;

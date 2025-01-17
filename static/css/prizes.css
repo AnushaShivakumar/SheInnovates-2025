@@ -140,14 +140,16 @@ h1 {
     border: none; /* Removes any default border */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
-
 #nav li button:hover {
-    background-color: #592e83;
+    background-color: rgb(225, 213, 208); /* Changes the background color */
     transform: scale(1.05); /* Slightly enlarges the button */
 }
 
 #nav li button a {
     color: white;
     text-decoration: none; /* Removes the underline */
+}
 
+#nav li button:hover a {
+    color: black; /* Ensure the <a> inside gets updated */
 }
