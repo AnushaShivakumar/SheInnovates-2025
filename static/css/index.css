@@ -26,6 +26,7 @@ h2 {
     margin-top: min(-1pc, 1pc);
     font-size: min(200px, 5vw);
 }
+
 button#reg a {
     text-decoration: none;
     font-size: min(10vw, 48px); /* Adjust font size dynamically */
@@ -62,7 +63,6 @@ button#reg:hover {
     justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
-
 }
 
 #nav li {
@@ -87,6 +87,7 @@ button#reg:hover {
     border: none; /* Removes any default border */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
+
 #nav li button:hover {
     background-color: rgb(225, 213, 208); /* Changes the background color */
     transform: scale(1.05); /* Slightly enlarges the button */
@@ -99,4 +100,70 @@ button#reg:hover {
 
 #nav li button:hover a {
     color: black; /* Ensure the <a> inside gets updated */
+}
+
+/* Hamburger menu styles */
+.hamburger {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+/* Show the hamburger menu on smaller screens */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block;
+    }
+
+    #nav {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #8477A7;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+    }
+
+    #nav.show {
+        display: flex;
+    }
+
+    #nav li {
+        margin: 10px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    button#reg {
+        padding: 8px 16px; /* Reduce padding on smaller screens */
+    }
+
+    button#reg a {
+        font-size: 5vw; /* Adjust font size for tablets and phones */
+    }
+}
+
+/* Media Query for very small screens */
+@media (max-width: 480px) {
+    button#reg {
+        padding: 6px 12px; /* Further reduce padding for smaller devices */
+    }
+
+    button#reg a {
+        font-size: 6vw; /* Smaller font size for very small screens */
+    }
 }

@@ -59,14 +59,12 @@ h1 {
     margin-top: 10px;
 }
 
-
 .subtitle {
     font-size: 1.2rem;
     margin: 10px auto 30px;
     color: white;
     opacity: 0.9;
 }
-
 
 /* Prize Card Styling */
 .prize-card {
@@ -103,6 +101,7 @@ h1 {
     color: #555;
     margin: 10px 0;
 }
+
 #nav {
     position: relative;
     width: 100%;
@@ -126,7 +125,6 @@ h1 {
     margin-left: 0; /* Avoid left alignment issue */
 }
 
-
 #nav li button {
     display: flex;
     justify-content: center;
@@ -140,6 +138,7 @@ h1 {
     border: none; /* Removes any default border */
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }
+
 #nav li button:hover {
     background-color: rgb(225, 213, 208); /* Changes the background color */
     transform: scale(1.05); /* Slightly enlarges the button */
@@ -152,4 +151,61 @@ h1 {
 
 #nav li button:hover a {
     color: black; /* Ensure the <a> inside gets updated */
+}
+
+/* Hamburger Menu */
+.hamburger {
+    display: none; /* Hidden by default */
+    cursor: pointer;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+}
+
+.hamburger div {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+    transition: 0.3s;
+}
+
+/* Show the hamburger menu on smaller screens */
+@media (max-width: 768px) {
+    .hamburger {
+        display: block; /* Show hamburger menu */
+    }
+
+    #nav {
+        display: none; /* Hide the navbar by default */
+        flex-direction: column; /* Stack items vertically */
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #8477A7;
+        width: 100%;
+        text-align: center;
+        z-index: 5;
+    }
+
+    #nav.show {
+        display: flex; /* Show navbar when toggled */
+    }
+
+    #nav li button {
+
+        max-width: none;
+    }
+}
+
+@media (max-width: 480px) {
+    #nav {
+        padding: 5px 10px; /* Reduce padding for smaller devices */
+    }
+
+    #nav li button {
+        font-size: 4vw; /* Dynamically adjust font size */
+        padding: 8px 12px; /* Adjust padding */
+    }
 }

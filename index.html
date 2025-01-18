@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,18 +7,30 @@
     <title>SheInnovates 2025</title>
 </head>
 <body>
-    <h1> <img src="static/img/decor/logo-background.png" alt="Logo"></h1>
-    <h2> 1/31 - 2/2 </h2>
+<h1> <img src="static/img/decor/logo-background.png" alt="Logo"></h1>
+<h2> 1/31 - 2/2 </h2>
 
-    <button id="reg"><a href="https://forms.gle/kb3AMaMEXaB7uukk6"> REGISTRATION </a></button>
+<button id="reg"><a href="https://forms.gle/kb3AMaMEXaB7uukk6"> REGISTRATION </a></button>
 
-    <ul id="nav">
-        <li><button><a href="index.html">HOME</a></button></li>
-        <li><button><a href="pages/schedule.html">SCHEDULE</a></button></li>
-        <li><button><a href="pages/sponsors.html">SPONSORS</a></button></li>
-        <li><button><a href="pages/prizes.html">PRIZES</a></button></li>
-        <li><button><a href="pages/faq.html">FAQ</a></button></li>
-    </ul>
+<div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+<ul id="nav">
+    <li><button><a href="index.html">HOME</a></button></li>
+    <li><button><a href="pages/schedule.html">SCHEDULE</a></button></li>
+    <li><button><a href="pages/sponsors.html">SPONSORS</a></button></li>
+    <li><button><a href="pages/prizes.html">PRIZES</a></button></li>
+    <li><button><a href="pages/faq.html">FAQ</a></button></li>
+</ul>
+
+<script>
+    function toggleMenu() {
+        const nav = document.getElementById("nav");
+        nav.classList.toggle("show");
+    }
+</script>
 </body>
 </html>
-

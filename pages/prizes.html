@@ -40,6 +40,13 @@
     </div>
 </div>
 
+<!-- Hamburger Menu -->
+<div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
 <!-- Navigation Bar -->
 <ul id="nav">
     <li><button><a href="../index.html">HOME</a></button></li>
@@ -48,5 +55,13 @@
     <li><button><a href="prizes.html">PRIZES</a></button></li>
     <li><button><a href="faq.html">FAQ</a></button></li>
 </ul>
+
+<script>
+    function toggleMenu() {
+        const nav = document.getElementById("nav");
+        nav.classList.toggle("show");
+    }
+</script>
+
 </body>
 </html>

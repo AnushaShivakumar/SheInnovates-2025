@@ -9,10 +9,19 @@
     <script src="/static/js/navbar.js" defer></script>
 </head>
 <body>
+
+<!-- Hamburger Menu -->
+<div class="hamburger" onclick="toggleMenu()">
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+
+
 <div class="heading">
     <h1>Frequently Asked Questions</h1>
 
-    <!---- questions ---->
+    <!-- Questions -->
     <div class="faq">
         <button class="accordion">
             1. What is a hackathon?
@@ -78,7 +87,7 @@
     </div>
 </div>
 
-<!--- contact us --->
+<!-- Contact Us -->
 <section class="contact-container">
     <div class="contact-card">
         <a href="https://www.instagram.com/sheinnovates.us/"><img src="/static/img/decor/instagram.png" alt="Instagram"></a>
@@ -91,8 +100,16 @@
     </div>
 </section>
 
+<!-- Navigation Bar -->
+<ul id="nav">
+    <li><button><a href="../index.html">HOME</a></button></li>
+    <li><button><a href="schedule.html">SCHEDULE</a></button></li>
+    <li><button><a href="sponsors.html">SPONSORS</a></button></li>
+    <li><button><a href="prizes.html">PRIZES</a></button></li>
+    <li><button><a href="faq.html">FAQ</a></button></li>
+</ul>
 
-<!---- java script ---->
+<!-- FAQ Accordion Script -->
 <script>
     var acc = document.getElementsByClassName("accordion");
     var i;
@@ -115,15 +132,12 @@
             icon.classList.toggle("fa-chevron-up");
         });
     }
-</script>
 
-<ul id="nav">
-    <li><button><a href="../index.html">HOME</a></button></li>
-    <li><button><a href="schedule.html">SCHEDULE</a></button></li>
-    <li><button><a href="sponsors.html">SPONSORS</a></button></li>
-    <li><button><a href="prizes.html">PRIZES</a></button></li>
-    <li><button><a href="faq.html">FAQ</a></button></li>
-</ul>
+    function toggleMenu() {
+        const nav = document.getElementById("nav");
+        nav.classList.toggle("show");
+    }
+</script>
 
 </body>
 </html>
