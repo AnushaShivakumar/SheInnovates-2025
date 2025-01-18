@@ -46,7 +46,7 @@ button#reg {
 }
 
 button#reg:hover {
-    background-color: rgb(114, 155, 156);
+    background-color: #8477A7;
     color: black;
     transition: background-color 0.3s ease, transform 0.3s ease; /* Smooth transition */
 }

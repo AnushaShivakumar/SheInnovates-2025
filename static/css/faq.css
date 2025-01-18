@@ -13,7 +13,6 @@ body {
     background: #8477A7;
     color: white;
     padding: 40px 80px;
-    margin-bottom: 40px;
 }
 
 h1 {
@@ -21,7 +20,6 @@ h1 {
 
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-bottom: 20px;
 }
 
 /* 🔥 FAQ Accordion */
