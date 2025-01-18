@@ -187,7 +187,7 @@ h1 {
     }
 
     h1 {
-        font-size: 4pc;
+        font-size: 3pc;
         margin-bottom: 20px;
 
     }
@@ -196,9 +196,9 @@ h1 {
         font-family: 'Courier New', Courier, monospace;
         background-color: rgb(238, 232, 227);
         color: rgba(0, 0, 0, 0.8);
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         width: 100%;
-        padding: 1.3rem 2.1rem;
+        padding: 1.1rem 2rem;
     }
 }
 
@@ -209,6 +209,11 @@ h1 {
 
     #nav li button {
         font-size: 4vw;
+    }
+    h1 {
+        font-size: 3pc;
+        margin-bottom: 20px;
+
     }
 }
 
