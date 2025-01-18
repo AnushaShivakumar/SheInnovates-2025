@@ -18,9 +18,10 @@ body {
 
 h1 {
     font-size: 6pc;
-    margin: 0;
+
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-bottom: 20px;
 }
 
 /* 🔥 FAQ Accordion */
@@ -90,9 +91,9 @@ h1 {
     position: relative;
     width: 100%;
     padding: 15px;
-    margin: 0 auto; /* Centers the navbar container */
+    margin: 0 auto 30px auto;
     list-style-type: none;
-    background-color: rgb(114, 155, 156);
+    background-color: #8477A7;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -155,7 +156,7 @@ h1 {
 }
 
 /* Show the hamburger menu on smaller screens */
-@media (max-width: 768px) {
+@media (max-width: 865px) {
     .heading {
         background: #8477A7;
         color: white;
@@ -186,6 +187,21 @@ h1 {
     #nav li button {
 
         max-width: none;
+    }
+
+    h1 {
+        font-size: 4pc;
+        margin-bottom: 20px;
+
+    }
+
+    .accordion {
+        font-family: 'Courier New', Courier, monospace;
+        background-color: rgb(238, 232, 227);
+        color: rgba(0, 0, 0, 0.8);
+        font-size: 1.2rem;
+        width: 100%;
+        padding: 1.3rem 2.1rem;
     }
 }
 
