@@ -188,6 +188,6 @@ p {
 
     #nav li button {
         font-size: 4vw; /* Dynamically adjust font size */
-        padding: 8px 12px; /* Adjust padding */
+        /*padding: 8px 12px;*/
     }
 }
