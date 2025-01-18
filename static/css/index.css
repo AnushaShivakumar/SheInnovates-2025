@@ -159,11 +159,22 @@ button#reg:hover {
 
 /* Media Query for very small screens */
 @media (max-width: 480px) {
+    #nav {
+        padding: 5px 10px; /* Reduce padding for smaller devices */
+    }
+
+    #nav li button {
+        font-size: 4vw;
+    }
     button#reg {
-        padding: 6px 12px; /* Further reduce padding for smaller devices */
+        padding: 22px 25px; /* Further reduce padding for smaller devices */
     }
 
     button#reg a {
-        font-size: 6vw; /* Smaller font size for very small screens */
+        font-size: 8vw; /* Smaller font size for very small screens */
+    }
+
+    h2 {
+        font-size: min(200px, 11vw);
     }
 }
