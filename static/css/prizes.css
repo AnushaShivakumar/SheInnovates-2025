@@ -107,7 +107,7 @@ h1 {
     width: 100%;
     top: 65px;
     padding: 15px; /* Removes side padding */
-    margin: 0 auto 90px auto;
+    margin: 0 auto; /* Centers the navbar container */
     list-style-type: none;
     background-color: #8477A7;
     display: flex;
@@ -181,7 +181,7 @@ h1 {
         display: none; /* Hide the navbar by default */
         flex-direction: column; /* Stack items vertically */
         position: absolute;
-        top: 60px;
+        top: 40px;
         right: 0;
         background-color: #8477A7;
         width: 100%;
@@ -194,10 +194,8 @@ h1 {
     }
 
     #nav li button {
-
         max-width: none;
     }
-
     .heading h1 {
         font-size: 4pc;
 
@@ -213,6 +211,18 @@ h1 {
     }
 }
 
+@media (max-width: 640px) {
+    .prizes-container {
+        grid-template-columns: 1fr; /* Makes it a single column */
+        gap: 15px; /* Adjust spacing between items */
+    }
+
+    .prize-card {
+        width: 90%; /* Ensures cards are not too wide */
+        margin: 0 auto; /* Centers the cards horizontally */
+    }
+}
+
 
 @media (max-width: 480px) {
     #nav {
@@ -221,7 +231,6 @@ h1 {
 
     #nav li button {
         font-size: 4vw; /* Dynamically adjust font size */
-        padding: 8px 12px; /* Adjust padding */
     }
 
     .prizes-container {
@@ -233,4 +242,5 @@ h1 {
         width: 90%; /* Ensures cards are not too wide */
         margin: 0 auto; /* Centers the cards horizontally */
     }
+
 }
