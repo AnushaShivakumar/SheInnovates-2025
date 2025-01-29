@@ -102,6 +102,38 @@ h1 {
     margin: 10px 0;
 }
 
+.pnc-header{
+    max-width: 900px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    padding: 20px;
+    background: #8477A7;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    place-items: center;
+}
+.pnc-header h2{
+    font-size: 40px;
+    color: white;
+}
+.pnc-header h3{
+    font-size: 18px;
+    color: white;
+}
+
+.prize-special{
+    max-width: 450px;
+    margin: 0 auto;
+    display: grid;
+    gap: 30px;
+    padding: 20px;
+    background: white;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+
+}
+
 #nav {
     position: relative;
     width: 100%;
